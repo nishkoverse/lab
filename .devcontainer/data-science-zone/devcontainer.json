@@ -18,7 +18,8 @@
         "equinusocio.vsc-material-theme-icons",
         "redhat.vscode-yaml",
         "gruntfuggly.todo-tree",
-        "ms-python.python"
+        "ms-python.python",
+        "ms-python.black-formatter"
       ]
     }
   },
