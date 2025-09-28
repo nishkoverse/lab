@@ -1,21 +1,22 @@
 {
-  "name": "the-lab",
+  "name": "the-lab-base",
   "build": {
     "context": "..",
     "dockerfile": "dockerfile"
   },
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "asvetliakov.vscode-neovim",
-        "redhat.vscode-yaml"  // example: Red Hat extension
-      ],
       "settings": {
         "workbench.colorTheme": "Default Dark+",
-        "editor.fontSize": 14
-      }
+        "editor.fontSize": 14,
+        "editor.tabSize": 2
+      },
+      "extensions": [
+        "asvetliakov.vscode-neovim",
+        "redhat.vscode-yaml"
+      ]
     }
-  },
-  "remoteUser": "vscode",
-  "workspaceFolder": "/workspace"
+  }
 }
