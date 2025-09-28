@@ -10,6 +10,7 @@ RUN microdnf update -y \
     sudo \
     shadow-utils \
     tar \
+    which \
  && microdnf clean all
 
 RUN set -eux; \
