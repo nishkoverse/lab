@@ -9,7 +9,6 @@ SHELL ["/bin/bash", "-lc"]
 RUN microdnf update -y \
  && microdnf install -y \
     git \
-    neovim \
     sudo \
     shadow-utils \
  && microdnf clean all
