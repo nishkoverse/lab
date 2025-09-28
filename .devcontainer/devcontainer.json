@@ -5,14 +5,13 @@
     "dockerfile": "dockerfile"
   },
   "remoteUser": "nishko",
-    "features": {
+  "workspaceFolder": "/workspace",
+  "features": {
     "../features/neovim": {}
   },
-  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
-      "settings": {
-      },
+      "settings": {},
       "extensions": [
         "pkief.material-icon-theme",
         "equinusocio.vsc-material-theme-icons",
