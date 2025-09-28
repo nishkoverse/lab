@@ -1,18 +1,21 @@
 {
-  "name": "Data Science Zone",
-  "extends": "../devcontainer.json",
+  "name": "data-science-zone",
+  "build": {
+    "context": "..",
+    "dockerfile": "dockerfile"
+  },
+  "remoteUser": "nishko",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
+      "settings": {
+      },
       "extensions": [
-        "ms-python.python",
-        "ms-toolsai.jupyter"
+        "pkief.material-icon-theme",
+        "equinusocio.vsc-material-theme-icons",
+        "redhat.vscode-yaml",
+        "gruntfuggly.todo-tree"
       ]
     }
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.11"
-    }
-  },
-  "postCreateCommand": "pip install numpy pandas matplotlib seaborn scikit-learn"
+  }
 }
