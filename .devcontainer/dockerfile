@@ -9,7 +9,16 @@ RUN microdnf update -y \
     git \
     sudo \
     shadow-utils \
+    tar \
  && microdnf clean all
+
+RUN set -eux; \
+    NVIM_URL="https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"; \
+    curl -fsSL -o /tmp/nvim-linux64.tar.gz "$NVIM_URL"; \
+    tar -xzf /tmp/nvim-linux64.tar.gz -C /tmp; \
+    mv /tmp/nvim-linux64/bin/nvim /usr/local/bin/nvim; \
+    chmod +x /usr/local/bin/nvim; \
+    rm -rf /tmp/nvim-linux64* /tmp/nvim-linux64.tar.gz || true
 
 ARG USERNAME=nishko
 ARG USER_UID=1000

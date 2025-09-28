@@ -1,5 +1,5 @@
 {
-  "name": "the-lab-base",
+  "name": "base",
   "build": {
     "context": "..",
     "dockerfile": "dockerfile"
