@@ -1,0 +1,21 @@
+{
+  "name": "the-lab",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "asvetliakov.vscode-neovim",
+        "redhat.vscode-yaml"  // example: Red Hat extension
+      ],
+      "settings": {
+        "workbench.colorTheme": "Default Dark+",
+        "editor.fontSize": 14
+      }
+    }
+  },
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspace"
+}
