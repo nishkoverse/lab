@@ -14,7 +14,6 @@
         "editor.tabSize": 2
       },
       "extensions": [
-        "asvetliakov.vscode-neovim",
         "redhat.vscode-yaml"
       ]
     }
