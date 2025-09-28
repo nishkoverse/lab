@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi9/ubi-minimal
 
-LABEL maintainer="Nishant <you@example.com>"
+LABEL maintainer="Nishant contact@nishko.co"
 ENV TZ=Asia/Kolkata
 SHELL ["/bin/bash", "-lc"]
 
@@ -9,17 +9,7 @@ RUN microdnf update -y \
     git \
     sudo \
     shadow-utils \
-    curl \
-    tar \
  && microdnf clean all
-
-RUN set -eux; \
-    NVIM_URL="https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"; \
-    curl -fsSL -o /tmp/nvim-linux64.tar.gz "$NVIM_URL"; \
-    tar -xzf /tmp/nvim-linux64.tar.gz -C /tmp; \
-    mv /tmp/nvim-linux64/bin/nvim /usr/local/bin/nvim; \
-    chmod +x /usr/local/bin/nvim; \
-    rm -rf /tmp/nvim-linux64* /tmp/nvim-linux64.tar.gz || true
 
 ARG USERNAME=nishko
 ARG USER_UID=1000
