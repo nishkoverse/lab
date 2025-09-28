@@ -2,7 +2,7 @@
   "name": "the-lab",
   "build": {
     "context": "..",
-    "dockerfile": "Dockerfile"
+    "dockerfile": "dockerfile"
   },
   "customizations": {
     "vscode": {
