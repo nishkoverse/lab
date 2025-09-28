@@ -5,7 +5,7 @@
     "dockerfile": "../dockerfile"
   },
   "remoteUser": "nishko",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces/data-science-lab",
   "features": {
     "../features/python": {},
     "../features/neovim": {}
@@ -17,8 +17,10 @@
         "pkief.material-icon-theme",
         "equinusocio.vsc-material-theme-icons",
         "redhat.vscode-yaml",
-        "gruntfuggly.todo-tree"
+        "gruntfuggly.todo-tree",
+        "ms-python.python"
       ]
     }
-  }
+  },
+  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) /workspaces/data-science-lab"
 }
