@@ -9,9 +9,6 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "workbench.colorTheme": "Default Dark+",
-        "editor.fontSize": 14,
-        "editor.tabSize": 2
       },
       "extensions": [
         "redhat.vscode-yaml"
