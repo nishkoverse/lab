@@ -7,7 +7,7 @@
   "remoteUser": "nishko",
   "workspaceFolder": "/workspace",
   "features": {
-    "../.devcontainer/features/python": {}
+    "../features/python": {}
   },
   "customizations": {
     "vscode": {
