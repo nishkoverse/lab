@@ -5,6 +5,9 @@
     "dockerfile": "dockerfile"
   },
   "remoteUser": "nishko",
+    "features": {
+    "../features/neovim": {}
+  },
   "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
