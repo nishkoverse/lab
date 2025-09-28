@@ -11,6 +11,8 @@
       "settings": {
       },
       "extensions": [
+        "pkief.material-icon-theme",
+        "equinusocio.vsc-material-theme-icons",
         "redhat.vscode-yaml"
       ]
     }
