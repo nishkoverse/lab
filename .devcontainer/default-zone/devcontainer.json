@@ -7,6 +7,7 @@
   "remoteUser": "nishko",
   "workspaceFolder": "/workspaces",
   "features": {
+    "../features/zsh": {},
     "../features/neovim": {}
   },
   "customizations": {

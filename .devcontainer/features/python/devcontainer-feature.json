@@ -2,6 +2,6 @@
   "id": "python",
   "name": "python",
   "version": "1.0.0",
-  "description": "Install python via microdnf or other method",
+  "description": "Install python via microdnf.",
   "options": {}
 }

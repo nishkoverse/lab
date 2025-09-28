@@ -2,6 +2,6 @@
   "id": "neovim",
   "name": "neovim",
   "version": "1.0.0",
-  "description": "Install neovim via microdnf or other method",
+  "description": "Install neovim via microdnf.",
   "options": {}
 }
