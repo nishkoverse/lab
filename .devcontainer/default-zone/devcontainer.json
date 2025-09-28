@@ -5,7 +5,7 @@
     "dockerfile": "../dockerfile"
   },
   "remoteUser": "nishko",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces",
   "features": {
     "../features/neovim": {}
   },
@@ -19,5 +19,6 @@
         "gruntfuggly.todo-tree"
       ]
     }
-  }
+  },
+  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) /workspaces"
 }
