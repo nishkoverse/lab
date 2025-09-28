@@ -5,11 +5,11 @@
     "dockerfile": "../dockerfile"
   },
   "remoteUser": "nishko",
+  "postCreateCommand": "sudo microdnf install -y python3 python3-pip && sudo microdnf clean all",
   "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
-      "settings": {
-      },
+      "settings": {},
       "extensions": [
         "pkief.material-icon-theme",
         "equinusocio.vsc-material-theme-icons",
