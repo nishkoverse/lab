@@ -7,4 +7,4 @@ microdnf install -y zsh util-linux-user
 microdnf clean all
 
 # set default shell to zsh for vscode user (default Codespaces user)
-chsh -s /bin/zsh vscode
+chsh -s /bin/zsh nishko
