@@ -7,8 +7,8 @@
   "remoteUser": "nishko",
   "workspaceFolder": "/workspace",
   "features": {
-    "../features/neovim": {},
-    "../features/python": {}
+    "../features/python": {},
+    "../features/neovim": {}
   },
   "customizations": {
     "vscode": {
