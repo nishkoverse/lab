@@ -2,10 +2,10 @@
   "name": "base",
   "build": {
     "context": "..",
-    "dockerfile": "../dockerfile"
+    "dockerfile": "./dockerfile"
   },
   "remoteUser": "nishko",
-  "workspaceFolder": "/workspaces",
+  "workspaceFolder": "/workspaces/lab",
   "features": {
     "../features/zsh": {},
     "../features/neovim": {}
@@ -21,5 +21,5 @@
       ]
     }
   },
-  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) /workspaces"
+  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) /workspaces/lab"
 }
