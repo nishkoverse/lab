@@ -7,8 +7,8 @@
   "remoteUser": "nishko",
   "workspaceFolder": "/workspaces/lab",
   "features": {
-    "../../features/zsh": {},
-    "../../features/neovim": {}
+    "../features/zsh": {},
+    "../features/neovim": {}
   },
   "customizations": {
     "vscode": {
