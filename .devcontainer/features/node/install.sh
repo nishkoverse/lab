@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eux
 
-NODE_VERSION="${VERSION:-v20.18.0}"
+NODE_VERSION="${VERSION:-v22.20.0}"
 TAR="node-${NODE_VERSION}-linux-x64.tar.gz"
 TMP="/tmp/${TAR}"
 
@@ -11,6 +11,8 @@ tar -C /usr/local --strip-components=1 -xzf "${TMP}"
 rm -f "${TMP}"
 hash -r
 
-# verify
+npm install -g npm@latest --unsafe-perm=true --no-audit --no-fund
+hash -r
+
 node -v
 npm -v
