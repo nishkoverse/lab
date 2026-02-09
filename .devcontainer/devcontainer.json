@@ -7,17 +7,22 @@
   "remoteUser": "nishko",
   "workspaceFolder": "/workspaces/lab",
   "features": {
-    "../features/zsh": {},
-    "../features/neovim": {}
+    "./features/zsh": {},
+    "./features/neovim": {},
+    "./features/latex": {}
   },
   "customizations": {
     "vscode": {
       "settings": {},
       "extensions": [
-        "pkief.material-icon-theme",
-        "equinusocio.vsc-material-theme-icons",
+        "vira.vsc-vira-theme",
         "redhat.vscode-yaml",
-        "gruntfuggly.todo-tree"
+        "gruntfuggly.todo-tree",
+        // Project Specific Application
+        "angular.ng-template",
+        "ms-azuretools.ms-entra",
+        "EditorConfig.EditorConfig",
+        "james-yu.latex-workshop"
       ]
     }
   },
